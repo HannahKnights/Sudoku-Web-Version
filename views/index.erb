@@ -5,6 +5,7 @@
 </head>
 
 <body>
+<h1>Sudoku</h1>
 <div id="sudoku">
   <% 3.times do |row| %>
     <div class='row'>
@@ -14,7 +15,7 @@
       <div class='cell-row'>
       <% 3.times do |cell| %>
         <div class='cell'>
-            <input type='text'>
+            <input type='text' maxlength='1' autocomplete='1'>
           </div>
           <% end %>
         </div>
